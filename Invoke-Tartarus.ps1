@@ -6,27 +6,19 @@ function Invoke-Tartarus
 
 .DISCLAIMER
 
-Warning! Use at your own risk! This script is an example of actual threat and was created to help responder to understand them.
 
-Any action and/or activities related to the material contained within this blog is solely your responsibility. The misuse of the information in this website can result in criminal charges brought against the persons in question. The authors will not be held responsible in the event any criminal charges be brought against any individuals misusing the information in this website to break the law.
-
-This script is published for educational use only. I am no way responsible for any misuse of the information.
 
 .SYNOPSIS
 
-Fileless "Ransomware" example.
 
 Author: @pabraeken
 
-License: BSD 3-Clause
-
+License: totally free
 .DESCRIPTION
 
-Tartarus is expected to be launched from an Empire agent and therefore from the memory. It uses symmetric encryption and the key is store into the memory. This kind of attack is extremely challenging as it's bypass traditionnal malware detection by running directly in memory. The ransomware can be configured to run with a specific execution time and then it kills itself.
 
 .PARAMETER MaxExecutionTime
 
-This parameter allows to configure the malware execution time before killing itself
 
 .PARAMETER IV
 
